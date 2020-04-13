@@ -1,0 +1,25 @@
+.fade-appear,
+.fade-enter {
+    opacity: 0;
+    z-index: 99;
+}
+
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 800ms linear;
+}
+
+.fade-exit {
+    z-index: 0;
+    opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+    opacity: 0;
+}
+
+tr,
+td {
+    border: none !important;
+}
