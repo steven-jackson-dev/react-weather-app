@@ -4,6 +4,6 @@ import App from './App';
 import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
-    <BrowserRouter basename='/react-bootstrap-boilerplate'>
+    <BrowserRouter basename='/react-weather-app'>
         <App />
     </BrowserRouter>, document.getElementById('root'));

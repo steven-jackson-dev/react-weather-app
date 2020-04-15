@@ -7,7 +7,7 @@ const AppNavBar = (props) => {
 
     return (
         <Navbar bg="primary" variant="dark">
-            <Navbar.Brand href="#home">React Bootstrap Boilerplate</Navbar.Brand>
+            <Navbar.Brand href="#home">React Weather App</Navbar.Brand>
             <Nav className="ml-auto">
                 {AppRoutes.map(route => {
                     return <Nav.Item  key={route.id} href="#home">

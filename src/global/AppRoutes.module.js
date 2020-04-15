@@ -1,32 +1,10 @@
-import Homepage from "pages/Homepage"
-import Posts from "pages/Posts"
-import BoilerplateInfo from "pages/BoilerplateInfo"
-import Users from "pages/Users";
-
+import WeatherApp from "pages/WeatherApp"
 const AppRoutes = [
     {
-        id: 'homepage',
-        name: 'Homepage',
+        id: 'weather-app',
+        name: 'Weather App',
         path: '/',
-        page: Homepage
-    },
-    {
-        id: 'users',
-        name: 'Users',
-        path: '/users',
-        page: Users
-    },
-    {
-        id: 'posts',
-        name: 'Posts',
-        path: '/posts',
-        page: Posts
-    },
-    {
-        id: 'boilerplate-info',
-        name: 'Boilerplate Info',
-        path: '/boilerplate-info',
-        page: BoilerplateInfo
+        page: WeatherApp
     },
 ]
 export default AppRoutes

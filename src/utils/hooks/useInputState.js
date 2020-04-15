@@ -2,8 +2,8 @@ import { useState } from 'react'
 export default initialVal => {
     const [state, setState] = useState(initialVal);
 
-    const stateToggle = () => {
-        setState(!state)
+    const handleChange = e => {
+        setState(e.target.value)
     }
-    return [state, stateToggle]
+    return [state, handleChange]
 }

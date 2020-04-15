@@ -11,7 +11,6 @@ const AppRenderRoutes = () => {
                 key={location.id}
                 classNames="fade"
                 timeout={{ enter: 800, exit: 0 }}>
-
                 <Switch location={location}>
                     {AppRoutes.map(route => {
                         return <Route key={route.id} exact path={route.path} component={route.page} />
